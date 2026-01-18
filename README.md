@@ -1,2 +1,2 @@
 # MSSQL-DW
-SQL Server Medalion DataWarehouse
+SQL Server Medalion DataWarehouse project
