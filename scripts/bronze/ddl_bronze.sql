@@ -8,10 +8,10 @@ GO
   
 IF NOT EXISTS (SELECT * FROM sys.tables T INNER JOIN sys.schemas S ON T.schema_id = S.schema_id WHERE t.name = 'crmCUST_INFO' AND s.name = 'bronze')
 CREATE TABLE bronze.crmCUST_INFO (
-	cst_id			       INTEGER,
-	cst_key			       NVARCHAR(50),
-	cst_firstname	     NVARCHAR(50),
-	cst_lastname	     NVARCHAR(50),
+	cst_id			   INTEGER,
+	cst_key			   NVARCHAR(50),
+	cst_firstname	   NVARCHAR(50),
+	cst_lastname	   NVARCHAR(50),
 	cst_marital_status NVARCHAR(50),
 	cst_gndr           NVARCHAR(50),
 	cst_create_date    DATE
@@ -66,9 +66,9 @@ GO
 
 IF NOT EXISTS (SELECT * FROM sys.tables T INNER JOIN sys.schemas S ON T.schema_id = S.schema_id WHERE t.name = 'erpCAT_G1V2' AND s.name = 'bronze')
 CREATE TABLE bronze.erpCAT_G1V2 (
-	id			    NVARCHAR(50),
-	cat		     	NVARCHAR(50),
-	subcat		  NVARCHAR(50),
+	id			NVARCHAR(50),
+	cat		    NVARCHAR(50),
+	subcat		NVARCHAR(50),
 	maintenance NVARCHAR(50)
 );
 GO
