@@ -1,1 +1,15 @@
 
+1. Who owns the data?
+2. What Business Process it supports?
+3. System & Data documentation / courses / tutorials
+4. Data Model & Data Catalog
+
+5. How is data stored?
+6. Integration capabilities? (jak mogę dostać się do danych)
+
+7. Incremental vs Full load
+8. Data Scope & Historical needs
+9. What is the expected size of the extracks?
+10. Are there any data volume limitations?
+11. How to avoid impacting the source system's performance?
+12. authentication and authorization
